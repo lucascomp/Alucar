@@ -1,0 +1,29 @@
+-- Restrições estruturais
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('2456a4364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424b34346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '433432c3532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'rona4', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'sen', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronal9inho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/2000', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '2198825f261', '2016-11-20 00:00:00');
+insert into Associado (RG, CPF, CNH, Email, Login, Senha, Nome, DataNascimento, Endereco, Telefone, DataAssociacao) values ('245664364', '23424434346', '43343243532', 'ronaldo@ime.uerj.br', 'ronal', 'senha', 'Ronaldinho Alves de Sousa', str_to_date('06/09/1995', '%d/%m/%Y'), 'Rua da folha, 539', '21988258261', '2016-11-18 00:00:00');
+
+-- Restrições estruturais
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDEE019', 'T6', 'JAC MOTORS', 2009, 'Branco', 4, 1, 'Eletrica', 'Automatico', 8.8);
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDE0019', 'T6', 'JAC MOTORS', 1980, 'Branco', 4, 1, 'Eletrica', 'Automatico', 8.8);
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDE0019', 'T6', 'JAC MOTORS', 2009, 'Lilás', 4, 1, 'Eletrica', 'Automatico', 8.8);
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDE0019', 'T6', 'JAC MOTORS', 2009, 'Branco', 3, 1, 'Eletrica', 'Automatico', 8.8);
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDE0019', 'T6', 'JAC MOTORS', 2009, 'Branco', 4, 1, 'Online', 'Automatico', 8.8);
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDE0019', 'T6', 'JAC MOTORS', 2009, 'Branco', 4, 1, 'Eletrica', 'Cerebral', 8.8);
+insert into Carro (Placa, Modelo, Marca, Ano, Cor, QtdPortas, ArCondicionado, TipoDirecao, TipoMarcha, PrecoHora) values ('CDE0019', 'T6', 'JAC MOTORS', 2009, 'Branco', 4, 1, 'Eletrica', 'Automatico', -4.3);
+
+-- Restrições estruturais
+insert into Aluguel (Cod_Associado, Cod_Carro, DataAluguel, DataCancelamento, InicioAluguel, FimAluguel) values (1, 1, '2016-11-18 23:59:59', '2016-11-19 23:59:58', '2016-11-20 23:59:59', '2016-11-21 23:59:58');
+insert into Aluguel (Cod_Associado, Cod_Carro, DataAluguel, InicioAluguel, FimAluguel) values (1, 1, '2016-11-20 04:00:00', '2016-11-19 23:59:59', '2016-11-22 00:59:58');
+insert into Aluguel (Cod_Associado, Cod_Carro, DataAluguel, DataCancelamento, InicioAluguel, FimAluguel) values (1, 1, '2016-11-20 04:00:00', '2016-11-20 12:00:00', '2016-11-20 23:59:59', '2016-11-21 00:59:58');
+insert into Aluguel (Cod_Associado, Cod_Carro, DataAluguel, DataCancelamento, InicioAluguel, FimAluguel) values (1, 1, '2016-11-20 04:00:00', '2016-11-20 02:00:00', '2016-11-20 23:59:59', '2016-11-21 23:59:58');
+
+-- Restrições semânticas
+insert into Aluguel (Cod_Associado, Cod_Carro, DataAluguel, InicioAluguel, FimAluguel) values (1, 2, '2016-11-20', '2016-11-20', '2016-11-21');
+insert into Aluguel (Cod_Associado, Cod_Carro, DataAluguel, InicioAluguel, FimAluguel) values (2, 1, '2016-11-20', '2016-11-20', '2016-11-21');
