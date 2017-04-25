@@ -8,3 +8,5 @@ Para executar o sistema, siga os seguintes passos:
 * Entre na pasta target e execute o jar alucar-1.0-SNAPSHOT
 
 Este projeto é um projeto Maven.
+
+Desenvolvido por: Lucas Alves
