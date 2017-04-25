@@ -7,9 +7,9 @@ Para executar o sistema, siga os seguintes passos:
   * Acesse o menu Server > Users and Privileges. Digite sua senha para prosseguir, escolha e selecione a opção 'root' na coluna 'User' e clique em 'Expire Password'.
   * Logo após, você deve fechar o Workbench e abri-lô de novo. Tente logar. Nessa hora, será solicitado uma senha nova. Então, mude a senha para 'teste123' (sem aspas).
   * Depois que testar o sistema, volte para sua antiga senha repetindo este simples processo.
-* Baixe este repositório. Observe que, apesar de não ser uma boa prática, este repositório inclui a pasta 'target', tendo como objetivo facilitar a vida de quem vai testar o sistema.
+* Baixe este repositório. Observe que, apesar de não ser uma boa prática, este repositório inclui a pasta 'executável', tendo como objetivo facilitar a vida de quem vai testar o sistema.
 * Execute o scriptCriarAlucar.sql no servidor localhost:3306 para criar o banco de dados que o sistema usa. Este script está na raíz do repositório.
-* Entre na pasta target e execute o jar alucar-1.0-SNAPSHOT
+* Entre na pasta 'executável' e execute o .jar 'alucar-1.0-SNAPSHOT'. Mudar o .jar e a pasta 'lib' para pastas diferentes ocasionará problema na conexão com o bando de dados. Portanto, não altere o local dos arquivos.
 
 Este projeto é um projeto Maven.
 
