@@ -1,4 +1,5 @@
-# Alucar - Projeto final de Banco de Dados I
+# Alucar - Sistema de aluguel de carros
+## Projeto final de Banco de Dados I - UERJ
 
 Para executar o sistema, siga os seguintes passos:
 
